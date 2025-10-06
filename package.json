@@ -1,0 +1,20 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba de una aplicacion PWA # pruebaPWA",
+  "homepage": "https://github.com/OmarMedranoS/test1#readme",
+  "bugs": {
+    "url": "https://github.com/OmarMedranoS/test1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarMedranoS/test1.git"
+  },
+  "license": "ISC",
+  "author": "Omar",
+  "type": "commonjs",
+  "main": "converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
