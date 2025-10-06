@@ -17,7 +17,7 @@ $ git status
 
 Manually setting up the url
 ```bash
-$git remote set-url origin url 
+$git remote set-url origin https://github.com/OmarMedranoS/test1
 
 # Add changes to staging area  
 $ git add file.py     # add file.py 
