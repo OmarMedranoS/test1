@@ -28,7 +28,7 @@ self.addEventListener('fetch', event => {
           // Save the resource in the cache and return it.
           cache.put(event.request, fetchResponse.clone());
           return fetchResponse;
-        } catch (e) {
+        } catch (_e) {
           // The network failed.
         }
     }
