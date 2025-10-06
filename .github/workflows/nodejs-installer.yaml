@@ -19,8 +19,7 @@ jobs:
           node -v 
           npm -v 
 
-      - name: Initiating NPM
-        run: |
+     
          
          
          
@@ -40,7 +39,7 @@ jobs:
       - name: install dependencies
         run: |
           npm install
-          innit -y 
+          npm innit -y 
       
       
           
