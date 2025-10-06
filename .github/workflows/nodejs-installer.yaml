@@ -19,6 +19,13 @@ jobs:
           node -v 
           npm -v 
 
+      - name: Initiating NPM
+        run: |
+         
+         
+         
+        
+
   verification: 
     runs-on: ubuntu-latest
     needs: installation
@@ -31,9 +38,9 @@ jobs:
           node-version: '18'
 
       - name: install dependencies
-        run: npm install
-
-      - name: install build
-        run: npm run build
-        
+        run: |
+          npm install
+          innit -y 
+      
+      
           
