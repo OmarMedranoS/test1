@@ -14,3 +14,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install  -y nodejs npm
     
+      - name: check NodeJS version
+        run: |
+          node -v 
+          npm -v 
